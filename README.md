@@ -23,34 +23,49 @@ This is a solution to the [Product Preview Card challenge on Frontend Mentor](ht
 
 ### Links
 
-- Solution URL: https://github.com/Cegt25/recipePage
-- Live Site URL: https://cegt25.github.io/recipePage/
+- Solution URL: https://github.com/Cegt25/PRODUCT-PREVIEW-CARD
+- Live Site URL: https://cegt25.github.io/PRODUCT-PREVIEW-CARD/
 
 ### Built with
 
 - CSS Flexbox
-- CSS Grid
-- CSS Animations
+- Responsive Design
 - HTML Links
+- BEM Methodology
 - HTML Semantic Elements
 - Among Others
 
 ### What I learned
 
-In this project I learned about the positioning of elements, using media queries and basic CSS properties, which will help me improve my knowledge and continue advancing in this world of web page design.
+In this project I have learned a little more about responsive design, position elements in the layout, CSS media queries, among other things.
 
 To see how you can add code snippets, see below:
 
 ```
-.layout {
+<div class="description__btns">
+   <button type="submit" class="description__btn"><img src="./images/icon-cart.svg" alt="Cart" class="btn__ico">Add to Cart</button>
+</div>
+
+description__btns {
+  width: 98%;
+}
+
+.description__btn {
   width: 100%;
-  min-height: 100%;
-  position: absolute;
-  padding: 12rem 35rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #f3e5d8;
+  border: none;
+  padding: 1.4rem;
+  font-family: Montserrat;
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 1rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.btn__ico {
+  width: 18px;
+  height: 18px;
+  margin-right: 1rem;
 }
 ```
 
@@ -58,12 +73,14 @@ To see how you can add code snippets, see below:
 
 - Flexbox
 - Grid
+- CSS
 - JavaScript
 - Among Others
 
 ### Useful resources
 
 - (https://www.w3schools.com/) - This helped me with some basic concepts of HTML and CSS.
+- (https://developer.mozilla.org/en-US/) - Very useful for searching for information on basic HTML and CSS concepts.
 
 ## Author
 
